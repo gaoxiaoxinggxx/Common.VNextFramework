@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace Common.VNextFramework.EntityFramework
 {
-    public abstract class BCChinaDbContext<TDbContext> : DbContext
+    public abstract class BaseDbContext<TDbContext> : DbContext
         where TDbContext:DbContext
     {
 
@@ -20,7 +20,7 @@ namespace Common.VNextFramework.EntityFramework
         
         public IEntityHistoryHelper EntityHistoryHelper;
 
-        protected BCChinaDbContext(DbContextOptions<TDbContext> options, IServiceProvider serviceProvider) : base(options)
+        protected BaseDbContext(DbContextOptions<TDbContext> options, IServiceProvider serviceProvider) : base(options)
         {
             ServiceProvider = serviceProvider;
 
