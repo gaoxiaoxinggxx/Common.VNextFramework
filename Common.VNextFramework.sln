@@ -13,15 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Tools
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.VNextFramework.Auditing", "Common.VNextFramework.Auditing\Common.VNextFramework.Auditing.csproj", "{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFT.NugetServer", "PFT.NugetServer\PFT.NugetServer.csproj", "{F89B5012-7DA8-47C3-9173-70242F4FF82B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{87C167F8-0A91-44FE-AF4B-EA7B6E962AA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Common.API", "samples\Samples.Common.API\Samples.Common.API.csproj", "{98541F19-181D-43B6-880A-2C6EFE29C8AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Common.API", "samples\Samples.Common.API\Samples.Common.API.csproj", "{98541F19-181D-43B6-880A-2C6EFE29C8AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Common.Data", "samples\Samples.Common.Data\Samples.Common.Data.csproj", "{9053E46B-46AF-4555-94BA-5EA44E8C9838}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Common.Data", "samples\Samples.Common.Data\Samples.Common.Data.csproj", "{9053E46B-46AF-4555-94BA-5EA44E8C9838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Common.Service", "samples\Samples.Common.Service\Samples.Common.Service.csproj", "{6E8710F5-04C4-4A85-82D9-8C10C4C7C0D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.Common.Service", "samples\Samples.Common.Service\Samples.Common.Service.csproj", "{6E8710F5-04C4-4A85-82D9-8C10C4C7C0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFT.NugetServer", "PFT.NugetServer\PFT.NugetServer.csproj", "{554FE27E-7696-4BA2-92EE-B7D9CB717EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,10 +49,6 @@ Global
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C48B21EE-DC4F-4815-8B18-CDCF2A077EBF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F89B5012-7DA8-47C3-9173-70242F4FF82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F89B5012-7DA8-47C3-9173-70242F4FF82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F89B5012-7DA8-47C3-9173-70242F4FF82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F89B5012-7DA8-47C3-9173-70242F4FF82B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{98541F19-181D-43B6-880A-2C6EFE29C8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{98541F19-181D-43B6-880A-2C6EFE29C8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98541F19-181D-43B6-880A-2C6EFE29C8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -65,6 +61,10 @@ Global
 		{6E8710F5-04C4-4A85-82D9-8C10C4C7C0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E8710F5-04C4-4A85-82D9-8C10C4C7C0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E8710F5-04C4-4A85-82D9-8C10C4C7C0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554FE27E-7696-4BA2-92EE-B7D9CB717EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554FE27E-7696-4BA2-92EE-B7D9CB717EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554FE27E-7696-4BA2-92EE-B7D9CB717EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554FE27E-7696-4BA2-92EE-B7D9CB717EE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
