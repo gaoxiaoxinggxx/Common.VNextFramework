@@ -13,7 +13,7 @@
 </head>
 <body>
     <div>
-        <h2>You are running NuGet.Server v<%= typeof(NuGetODataConfig).Assembly.GetName().Version %></h2>
+        <h2>You are running  NuGet.Server v<%= typeof(NuGetODataConfig).Assembly.GetName().Version %></h2>
         <p>
             Click <a href="<%= VirtualPathUtility.ToAbsolute("~/nuget/Packages") %>">here</a> to view your packages.
         </p>
